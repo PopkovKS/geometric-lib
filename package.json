@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "tsc src/app.ts --watch"
+    "dev": "tsc --watch"
   },
   "author": "",
   "license": "ISC",
