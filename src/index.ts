@@ -1,22 +1,22 @@
-interface Shape {
+export interface Shape {
     getArea(parameters: any): number;
     createFigures(parameters: any): RectangleParams | TriangleParams | CircleParams;
 }
 
-interface RectangleParams {
+export interface RectangleParams {
     id?: string;
     width: number;
     height: number;
 }
 
-interface TriangleParams {
+export interface TriangleParams {
     id?: string;
     sideA: number;
     sideB: number;
     sideC: number;
 }
 
-interface CircleParams {
+export interface CircleParams {
     id?: string;
     radius: number;
 }
